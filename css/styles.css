@@ -605,6 +605,9 @@ img{
 
 .modal-text{
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2E2F42;
   text-align: center;
   margin-bottom: 16px;
@@ -618,6 +621,14 @@ img{
 
 .form-item{
   margin-bottom: 8px;
+}
+
+.form-item.comment{
+  margin-bottom: 16px;
+}
+
+.form-item.custom-policy{
+  margin-bottom: 24px;
 }
 
 .modal-label{
@@ -697,7 +708,7 @@ img{
   justify-content: center;
   align-items: center;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  fill: transparent
+  fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border 250ms cubic-bezier(0.4, 0, 0.2, 1),
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -706,11 +717,16 @@ img{
   
   }
 
+  .checkbox-custom svg{
+    fill: transparent;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
 
 .checkbox-input:checked + .modal-label .checkbox-custom {
  background-color: #404BBF;
  border: none;
- fill: #F4F4FD;
+
 }
 
 .checkbox-input:checked + .modal-label .checkbox-custom svg{
