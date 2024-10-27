@@ -726,7 +726,7 @@ img{
 .checkbox-input:checked + .modal-label .checkbox-custom {
  background-color: #404BBF;
  border: none;
-
+ fill: #F4F4FD;
 }
 
 .checkbox-input:checked + .modal-label .checkbox-custom svg{
@@ -775,5 +775,5 @@ img{
 .policy-link{
   color: #4d5ae5;
   text-decoration: underline;
-  /*margin-left: ;*/
+
 }
